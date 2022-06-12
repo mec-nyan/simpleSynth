@@ -1,0 +1,36 @@
+:root {
+  --primary: hsl(250, 10%, 30%);
+  --secondary: hsl(250, 20%, 10%);
+  --tertiary: hsl(250, 20%, 18%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "hack", monospace;
+}
+
+body {
+  background-color: var(--secondary);
+  color: var(--primary);
+}
+
+h1 {
+  padding: 20px;
+  border-bottom: 1px solid var(--primary);
+}
+
+.play {
+  background-color: var(--secondary);
+  color: var(--primary);
+  margin: 20px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: 1px solid var(--primary);
+  font-size: 18px;
+  animation: all 500ms;
+}
+
+.play:hover {
+  background-color: var(--tertiary);
+}
