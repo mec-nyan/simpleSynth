@@ -34,3 +34,9 @@ h1 {
 .play:hover {
   background-color: var(--tertiary);
 }
+
+.hightlighted {
+  background-color: orange !important;
+  color: white;
+  border-color: white;
+}
