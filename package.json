@@ -1,0 +1,25 @@
+{
+  "name": "simplesynth",
+  "version": "1.0.0",
+  "description": "Exploring the web audio api by building a very simple synth.",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve --open",
+    "test": "echo \"Give me a break!\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-mec:mec-nyan/simpleSynth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.2"
+  }
+}
