@@ -1,7 +1,7 @@
 :root {
   --primary: hsl(250, 10%, 30%);
   --secondary: hsl(250, 20%, 10%);
-  --tertiary: hsl(250, 20%, 18%);
+  --tertiary: hsl(250, 20%, 15%);
 }
 
 * {
@@ -39,4 +39,36 @@ h1 {
   background-color: orange !important;
   color: white;
   border-color: white;
+}
+
+.waveSelector {
+  border: 1px solid var(--primary);
+  margin: 20px;
+  padding: 20px;
+  position: relative;
+  width: auto;
+  display: flex;
+}
+
+.selectorTag {
+  position: absolute;
+  top: -10px;
+  left: 30px;
+  background-color: var(--secondary);
+  padding: 0px 10px;
+}
+
+.waveButton {
+  background-color: var(--tertiary);
+  color: var(--primary);
+  border: 1px solid transparent;
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+}
+
+.waveSelected {
+  color: steelblue;
+  background-color: transparent;
+  border-color: steelblue;
 }
